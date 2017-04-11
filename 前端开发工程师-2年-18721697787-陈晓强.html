@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sample CV</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+		body {
+			background: #f0f0f0;
+			margin: 0;
+			padding: 20px;
+			
+			font-family: Georgia, serif, 'Trebuchet MS';
+			line-height: 20px;
+			font-size: 12px;
+
+			color: #222;
+		}
+
+		h1, h2, h3, h4 {
+			margin: 0 0 15px 0;
+			padding: 0;
+		}
+		h1 {
+			font-size: 400%;
+		}
+		h2 {
+			font-size: 210%;
+		}
+		h3 {
+			font-size: 130%;
+		}
+		
+		p {
+			margin: 0 0 10px 0;
+			text-indent: 2em;
+		}
+		
+		ul {
+			list-style-type: circle;
+		}
+		li {
+			margin-bottom: 5px;
+			margin: 5px 10px
+		}
+		a {
+			color: #222;
+		}
+		/* ________________________________________________________ */
+		.rtl {
+			direction: rtl;
+		}
+		.clear {
+			clear: both;
+		}
+
+		#main {
+			background: #fff;
+			width: 750px;
+			padding: 35px;
+			margin: 0 auto 15px auto;
+			overflow: hidden;			
+			box-shadow: 0 0 6px #ccc;
+		}
+		
+		#title {
+			line-height: 42px;
+			margin: 0px 0 15px 0;
+			font-weight: normal;
+			text-align: center;
+		}
+		
+		#credit {
+			margin-bottom: 20px;
+			font-size: 11px;
+			color: #999;
+			text-align: center;
+		}
+			#credit a {
+				color: #999;
+			}
+		
+		p label {
+			font-weight: bold;
+			
+			font-size: 110%;
+			margin-right: 10px;
+		}
+			p label span.colon {
+				display: inline;
+			}
+
+		p.email {
+			font-weight: 700;
+		}
+		p.phone {
+			font-weight: 700;
+		}
+		p.experience {
+			font-weight: 700;
+		}
+		.section {
+			margin-bottom: 30px;
+		}
+		
+		.item {
+			margin: 0 0 20px 0;
+		}
+
+		/*  _____________________________ */
+		.basic-info {
+			margin: 0 auto 30px auto;
+			width: 80%;
+			overflow: hidden;
+			text-align: center;
+			font-size: 16px;
+			margin-top: 30px;
+		}
+		.basic-info p {
+			margin: 0;
+		}
+		.basic-info .dot {
+			display: inline;
+			font-size: 14px;
+			margin: 0 10px;
+		}
+		
+		.section .title {
+			text-transform: uppercase;
+			font-size: 150%;
+			text-align: center;
+			border-bottom: 1px solid #ccc;
+			padding-bottom: 10px;
+		}
+			.section .set h3 {
+				margin: 0;
+			}
+		.section span.value {
+			display: block;
+		}
+		.section h3 span.l, .section span.r {
+			width: 49%;
+			float: left;
+		}
+			.section span.r {
+				float: right;
+				text-align: right;
+			}
+			.section-education .school,
+			.section-work .job_title {
+				font-size: 100%;
+				display: block;
+				margin: 5px 0 5px 10px;
+				font-style: italic;
+			}
+
+		/* ___ photo ___ */
+		#photo {
+			width: 160px;
+			height: 160px;
+			overflow: hidden;
+			float: left;
+			margin-top: 8px;
+			border-radius: 50%;
+		}
+		#photo img {
+			width: 100%;
+			height: auto;
+		}
+		.header.photo {
+			margin-left: 190px;
+		}
+		.header.photo #title {
+			text-align: left;
+			padding-top: 16px;
+		}
+		.header.photo .basic-info {
+			float: none;
+			padding: 0;
+			width: auto;
+			text-align: left;
+		}
+
+		@media screen and (max-width: 950px) {
+			body {
+				background: #fff;
+			}
+			#main {
+				box-shadow: none;
+				padding: 0;
+				padding: 5px;
+			}
+		}
+	</style>
+</head>
+<body class="lang-en ">
+
+	<div id="main">
+		<div id="photo">
+			<img src="http://files1.cvmkr.com/bd73ea_1906323_4535682.jpg" alt="" />
+		</div>
+		<div class="header photo">	
+			<h1 id="title">陈晓强</h1>
+			<div class="basic-info section">
+				<div class="set">
+					<p class="job">Job <span class="dot">&sect;</span> Web前端工程师<br /></p>		
+					<p class="experience">Experience <span class="dot">&sect;</span>2年</p>					
+					<p class="email">E-mail <span class="dot">&sect;</span> 995503415@qq.com<br /></p>
+					<p class="phone">Phone <span class="dot">&sect;</span> 187-2169-7787<br /></p>
+					<p class="address">Address <span class="dot">&sect;</span>上海静安区场中路</p>					
+					<div class="clear"> </div>
+				</div><!-- set //-->
+				<div class="clear"> </div>
+			</div><!-- basic-info //-->
+
+			</div><div class="clear"> </div>
+	
+		
+		<div class="section section-work">
+			<h2 class="title">Work experience</h2>
+			<div class="set">
+				<div class="item">
+					<h3>
+						<span class="company l">宣臻信息科技</span>
+						<span class="date r">2016.4 &mdash; 2017.4</span>
+					</h3>
+					<div class="clear"> </div>
+					<span class="job_title">前端工程师</span>
+					<div class="info">
+						<ul>
+							<li>根据产品需求及UI设计，配合产品经理和后端开发人员实现产品界面和功能。</li>
+							<li>负责网站的前端页面制作，用H5、css3、Jquery 、原生JS实现特定的动态效果。</li>
+							<li>负责（PC+移动）端界面的前端构建，各类交互设计和实现。</li>
+						</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+							
+				<div class="item">
+					<h3>
+						<span class="company l">软云科技</span>
+						<span class="date r">2015.12 &mdash; 2016.4</span>
+					</h3>
+					<div class="clear"> </div>
+					<span class="job_title">Web前端工程师</span>
+					<div class="info">
+						<ul>
+							<li>根据产品的设计要求，使用HTML 、DIV+CSS、 JavaScript完成web前端页面的开发。</li>
+							<li>负责PC端页面的前端构建，CSS样式美化界面。</li>
+							<li>使用bootstrap制作响应式网站。</li>
+							<li>配合团队成员协作/沟通 ，解决技术问题。</li>
+						</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<div class="clear"> </div>
+		</div>
+		
+		
+		<div class="section section-1491367656211">
+			<h2 class="title">Skill</h2>
+			<div class="set">
+				<div class="item">
+					<h3><span class="special-title l">HTML5 / CSS3</span></h3>
+					<div class="clear"> </div>
+					<div class="skill-content">
+						<ul>
+							<li>精通html和css技术，掌握html5标准，语义化的编程;熟练使用css3中border-radius、box-shadow、transition、animation等新特性构建动态页面。</li>
+							<li>熟练使用Stylus 、less 、sass等 css预处理器书写规范化的样式。</li>
+						</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+						
+				<div class="item">
+					<h3><span class="special-title l">JavaScript</span></h3>
+					<div class="clear"> </div>
+					<div class="skill-content">	
+						<ul>
+							<li>精通原生js，熟悉js面向对象编程，对原型链、闭包、正则表达式等有深刻认识。理解Ajax运作机制，能在工作中熟练使用各种js设计模式优化代码，提高js代码性能。</li>
+							<li>熟练运用前端框架Jquery 、BootStrap、 zepto.js;  熟练应用Bootstrap、flex弹性盒子布局制作响应式页面。</li>
+						</ul>
+					</div>					
+								
+					<div class="clear"> </div>
+				</div>
+						
+				<div class="item">
+					<h3><span class="special-title l">前端框架</span></h3>
+					<div class="clear"> </div>
+					<div>
+						<ul>
+							<li>精通Vue.js，熟悉双向数据绑定、路由、过滤器、自定义指令、计算属性、事件监听等特性，熟悉npm命令行工具及包管理工具，配合webpack 、stylus 、node.js等进行前端的工程化、组件化、自动化开发。</li>
+							<li>熟练掌握php， node.js等后端语言，会基本的mysql数据库、mongodb的增删改查sql语句编写。</li>
+						</ul>		
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			<div class="clear"> </div>
+		</div>		
+			
+		<div class="section section-education">
+			<h2 class="title">Education</h2>
+			<div class="set">
+				<div class="item">
+					<h3>
+						<span class="course l">景德镇陶瓷大学</span>
+						<span class="date r">2012.9 &mdash; 2016.6</span>
+					</h3>
+					<div class="clear"> </div>
+					<span class="school">计算机科学与技术</span>
+					<div class="info">
+						<h3>
+							<span>
+								<span>
+									<span style="font-weight:bold;">主修课程：</span>
+								</span>
+							</span>
+						</h3>
+						<p>
+							html，css，JavaScript，php，asp.net，Java，C，SQL Server，操作系统，计算机组成原理，算法与数据结构,计算机网络，计算机系统结构，汇编语言，数据库系统概论。
+						</p>
+					</div>
+					<span class="clear"> </span>
+				</div>
+			</div>
+			<div class="clear"> </div>
+		</div>
+			
+			
+			
+			
+			<div class="section section-interests">
+				<h2 class="title">Interests</h2>
+				<div class="set">
+					<div class="item">
+						<span class="info">
+							<div>
+								<span>
+									<span>
+										<span style="font-weight:bold;">（1）</span>
+										热爱编程，关注新技术，能积极主动的学习新的技术，学习能力强。
+									</span>
+								</span>
+							</div>
+							<div>
+								<span style="font-weight:bold;">（2）</span>
+								<span>
+									喜欢读书 、旅游、跑步、看电影、斯诺克。
+								</span>
+							</div>
+						</span>		
+					</div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+		
+			<div class="section section-qualifications">
+				<h2 class="title">Qualifications</h2>
+				<div class="set">
+					<div class="item">
+						<span class="info">
+							<ul><li>英语四级</li></ul>
+						</span>
+					</div>
+				</div>
+				<div class="clear"> </div>
+			</div>
+			
+		
+	</div>
+</body>
+</html>
